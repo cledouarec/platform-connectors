@@ -59,7 +59,7 @@ from .gitlabclient import GitlabClient
 from .httpclient import HttpClient
 from .jiraclient import JiraClient
 
-__version__ = "0.0.0"
+__version__ = "0.1.0"
 
 __all__: Final[list[str]] = [
     "ConfluenceClient",

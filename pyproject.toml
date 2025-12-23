@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "platform-connectors"
-version = "0.0.0"
+version = "0.1.0"
 description = "Reusable API connectors for Jira, GitLab, and Confluence"
 authors = ["Christophe Le Douarec <ledouarec@gmail.com>"]
 readme = "README.md"
@@ -38,7 +38,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.commitizen]
 name = "cz_conventional_commits"
-version = "0.0.0"
+version = "0.1.0"
 version_files = [
     "src/platform_connectors/__init__.py:__version__",
     "pyproject.toml:^version"
